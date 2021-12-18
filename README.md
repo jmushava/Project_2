@@ -44,7 +44,7 @@
       - Time horizon- 30 years
       - Asset type- various
       - Investment amount- $100,000
-* Because the investor is optimistic about the market, create a long-position algorithm
+* **Because the investor is optimistic about the market, create a long-position algorithm**
     - Because we want the trading algorithm to identify the trading signals that indicate opportunities to buy USO stock, we need to identify the times when the short-window SMA is greater than the long-window SMA. When this happens, the price trend for USO stock is moving upward in the short term and we want to own USO stock during this time.
   - Our performance analysis time-period is during Covid-19 which has had extreme effects on the market. Therefore, we will extend our time-period for the simulation to include a time before Covid, so the results are not misleading. The new time-period will be 10/31/18-10/31/21.
 * **Analysis of the long-position algorithm**
